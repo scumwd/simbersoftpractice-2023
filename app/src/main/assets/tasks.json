@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date_start": "1688529600",
+    "date_finish": "1688533200",
+    "name": "buy food",
+    "description": "1. milk, 2.bread"
+  },
+  {
+    "id": 2,
+    "date_start": "1688540400",
+    "date_finish": "1688544000",
+    "name": "study",
+    "description": "grundlagen lernen REST API"
+  },
+  {
+    "id": 3,
+    "date_start": "1688547600",
+    "date_finish": "1688547600",
+    "name": "go walk",
+    "description": "walk for an hour in the Gorkinsko-Ometyevsky forest"
+  },
+  {
+    "id": 4,
+    "date_start": "1688554800",
+    "date_finish": "1688554800",
+    "name": "prepare food",
+    "description": "today we will have pasta!"
+  },
+  {
+    "id": 5,
+    "date_start": "1688562000",
+    "date_finish": "1688565600",
+    "name": "read a book",
+    "description": "read a book on algorithms and data structures"
+  }
+]
