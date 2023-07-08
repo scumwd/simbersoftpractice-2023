@@ -3,7 +3,7 @@
     <string name="title_task">Название</string>
     <string name="date_task">Запланированная дата</string>
     <string name="time_start_task">Время начала</string>
-    <string name="time_finish_task">Время начала</string>
+    <string name="time_finish_task">Время завершения</string>
     <string name="description_task">Описание</string>
     <string name="create_task">Создать дело</string>
 </resources>

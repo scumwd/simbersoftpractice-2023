@@ -8,7 +8,7 @@
     tools:context=".ui.main.MainActivity">
 
     <Button
-        android:id="@+id/imageButton"
+        android:id="@+id/ibtn_createTask"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -25,7 +25,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+        app:layout_constraintTop_toBottomOf="@+id/ibtn_createTask" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_tasks"
