@@ -15,6 +15,10 @@ class TaskRepository(private val context: Context) {
         taskDao.insertTasks(taskEntities)
     }
 
+    suspend fun createTask(task: Task){
+        taskDao.createTasks(task.toTaskEntity())
+    }
+
     suspend fun getAllTasks(): List<Task> {
         val taskEntities = taskDao.getAllTasks()
         return taskEntities.map { it.toTask() }
